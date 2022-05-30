@@ -1,3 +1,9 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
 nav{
     text-align: right;
 }
@@ -32,4 +38,10 @@ a:hover::after{
     width: 100%;
 }
 
-    
+#title{
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
