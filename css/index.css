@@ -38,6 +38,10 @@ a:hover::after{
     width: 100%;
 }
 
+a:visited{
+    background-color: red;
+}
+
 #title{
     display: inline-flex;
     align-items: center;
