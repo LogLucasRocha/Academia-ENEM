@@ -37,8 +37,16 @@ a:hover::after{
     width: 100%;
 }
 
-a:visited{
-    background-color: red;
+#provas{
+    color: black;
+}
+
+#provas::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: goldenrod;
 }
 
 #title{

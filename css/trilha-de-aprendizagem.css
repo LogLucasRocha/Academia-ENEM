@@ -27,7 +27,6 @@ a::after{
     width: 0;
     left: 0;
     bottom: -10px;
-    transition: 0.3s;
 }
 
 a:hover{
